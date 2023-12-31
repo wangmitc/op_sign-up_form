@@ -4,10 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div>
-        Hello world
+    <div class="main-body-flex-container">
+        <div class="bg-img-flex-box">
+            <img id ="bg-image" src="assets/bg_image.avif" alt="ferns">
+            <div class="logo-flex-box">
+                <img src="assets/odin-lined.png" alt="odin-logo">
+                <div>Odin</div>
+            </div>
+        </div>
+        <div class="form-section">
+            <div>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</div>
+            <div>You know you want to.</div>
+            <div class="form-inputs">
+                <form>
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" id="first-name">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" id="last-name">
+                    <label for="email">EMAIL</label>
+                    <input type="text" id="email">
+                    <label for="phone-number">PHONE NUMBER</label>
+                    <input type="text" id="phone-number">
+                    <label for="password">PASSWORD</label>
+                    <input type="text" id="password">
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="text" id="confirm-password">
+                </form>
+            </div>
+            <div><button>Create Account</button></div>
+            <div>Already have an account? Log In</div>
+        </div>
     </div>
 </body>
 </html>
